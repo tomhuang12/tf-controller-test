@@ -11,6 +11,10 @@ variable "subject" {
    description = "Subject to hello"
 }
 
-output "hello_world" {
+output "french_greetings" {
   value = "Bonjour, ${var.subject}!"
+}
+
+output "english_greetings" {
+  value = "Hello, ${var.subject}!"
 }
